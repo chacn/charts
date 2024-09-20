@@ -203,7 +203,7 @@
                                 "schema": {
                                     "type": "int",
                                     "min": 0,
-                                    "default": 568,
+                                    "default": 0,
                                     "required": true
                                 }
                             },
@@ -214,7 +214,7 @@
                                 "schema": {
                                     "type": "int",
                                     "min": 0,
-                                    "default": 568,
+                                    "default": 0,
                                     "required": true
                                 }
                             }
@@ -235,7 +235,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 30020,
-                                    "min": 9000,
+                                    "min": 70,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -246,8 +246,8 @@
                                 "description": "The HTTP port for the Nginx Proxy Manager.",
                                 "schema": {
                                     "type": "int",
-                                    "default": 30021,
-                                    "min": 9000,
+                                    "default": 80,
+                                    "min": 70,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -258,8 +258,8 @@
                                 "description": "The HTTP port for the Nginx Proxy Manager.",
                                 "schema": {
                                     "type": "int",
-                                    "default": 30022,
-                                    "min": 9000,
+                                    "default": 443,
+                                    "min": 70,
                                     "max": 65535,
                                     "required": true
                                 }
