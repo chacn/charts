@@ -82,7 +82,7 @@ questions:
           label: "Node Port to use for Netdata UI"
           schema:
             type: int
-            min: 9000
+            min: 0
             max: 65535
             default: 20489
             required: true

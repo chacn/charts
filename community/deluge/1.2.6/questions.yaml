@@ -105,7 +105,7 @@ questions:
             type: int
             show_if: [["hostNetwork", "=", false]]
             default: 30038
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: exposeDaemon
@@ -124,7 +124,7 @@ questions:
             type: int
             show_if: [["exposeDaemon", "=", true]]
             default: 58846
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: torrentPort
@@ -135,7 +135,7 @@ questions:
           schema:
             type: int
             default: 30039
-            min: 9000
+            min: 0
             max: 65535
             required: true
 

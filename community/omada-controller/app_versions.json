@@ -239,7 +239,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 30076,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -251,7 +251,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 30077,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -263,7 +263,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 30078,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -275,7 +275,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 30079,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -287,7 +287,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 27001,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -299,7 +299,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 29810,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -311,7 +311,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 29811,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -323,7 +323,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 29812,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -335,7 +335,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 29813,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -347,7 +347,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 29814,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }

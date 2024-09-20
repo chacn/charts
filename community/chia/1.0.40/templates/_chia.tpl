@@ -5,8 +5,8 @@ workload:
     primary: true
     type: Deployment
     podSpec:
-      {{ if or  (lt (int .Values.chiaNetwork.chiaPort) 9000)
-                (lt (int .Values.chiaNetwork.farmerPort) 9000) }}
+      {{ if or  (lt (int .Values.chiaNetwork.chiaPort) 0)
+                (lt (int .Values.chiaNetwork.farmerPort) 0) }}
       hostNetwork: true
       {{ else }}
       hostNetwork: false

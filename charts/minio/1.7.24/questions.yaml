@@ -152,15 +152,15 @@ questions:
           label: "Node Port to use for Minio API"
           schema:
             type: int
-            min: 9000
+            min: 0
             max: 65535
-            default: 9000
+            default: 0
             required: true
         - variable: consolePort
           label: "Node Port to use for Minio UI Access"
           schema:
             type: int
-            min: 9000
+            min: 0
             max: 65535
             default: 9002
             required: true

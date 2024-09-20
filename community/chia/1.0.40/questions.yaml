@@ -28,14 +28,14 @@ questions:
       attrs:
         - variable: chiaPort
           label: Chia Port
-          description: Ports below 9000 will enable Host Network automatically.
+          description: Ports below 0 will enable Host Network automatically.
           schema:
             type: int
             default: 38444
             required: true
         - variable: farmerPort
           label: Farmer Port
-          description: Ports below 9000 will enable Host Network automatically.
+          description: Ports below 0 will enable Host Network automatically.
           schema:
             type: int
             default: 38447

@@ -114,7 +114,7 @@
                             {
                                 "variable": "chiaPort",
                                 "label": "Chia Port",
-                                "description": "Ports below 9000 will enable Host Network automatically.",
+                                "description": "Ports below 0 will enable Host Network automatically.",
                                 "schema": {
                                     "type": "int",
                                     "default": 38444,
@@ -124,7 +124,7 @@
                             {
                                 "variable": "farmerPort",
                                 "label": "Farmer Port",
-                                "description": "Ports below 9000 will enable Host Network automatically.",
+                                "description": "Ports below 0 will enable Host Network automatically.",
                                 "schema": {
                                     "type": "int",
                                     "default": 38447,
@@ -536,8 +536,8 @@
                 }
             ]
         },
-        "app_readme": "<h1>Chia</h1>\n<p>This container runs as <code>root</code> user.</p>\n<p>When a port is set to &lt; 9000. Host Networking is enabled automatically.</p>\n<blockquote>\n<p>Also NodePort services turn to ClusterIP services, to avoid attempts to bind ports twice.</p>\n</blockquote>\n<p>Key file is stored in <code>/plots/keyfile</code> and is generated automatically, <strong>only</strong> if the file does not exist.\nIf you want to use your own <code>keyfile</code>, you can create a file called <code>keyfile</code> in the <code>/plots</code> directory and it will be used instead.</p>\n<blockquote>\n<p>When set on <code>harvester</code> mode <code>keys</code> variable is set to <code>none</code> and no generation is performed.</p>\n</blockquote>",
-        "detailed_readme": "<h1>Chia</h1>\n<p>This container runs as <code>root</code> user.</p>\n<p>When a port is set to &lt; 9000. Host Networking is enabled automatically.</p>\n<blockquote>\n<p>Also NodePort services turn to ClusterIP services, to avoid attempts to bind ports twice.</p>\n</blockquote>\n<p>Key file is stored in <code>/plots/keyfile</code> and is generated automatically, <strong>only</strong> if the file does not exist.\nIf you want to use your own <code>keyfile</code>, you can create a file called <code>keyfile</code> in the <code>/plots</code> directory and it will be used instead.</p>\n<blockquote>\n<p>When set on <code>harvester</code> mode <code>keys</code> variable is set to <code>none</code> and no generation is performed.</p>\n</blockquote>",
+        "app_readme": "<h1>Chia</h1>\n<p>This container runs as <code>root</code> user.</p>\n<p>When a port is set to &lt; 0. Host Networking is enabled automatically.</p>\n<blockquote>\n<p>Also NodePort services turn to ClusterIP services, to avoid attempts to bind ports twice.</p>\n</blockquote>\n<p>Key file is stored in <code>/plots/keyfile</code> and is generated automatically, <strong>only</strong> if the file does not exist.\nIf you want to use your own <code>keyfile</code>, you can create a file called <code>keyfile</code> in the <code>/plots</code> directory and it will be used instead.</p>\n<blockquote>\n<p>When set on <code>harvester</code> mode <code>keys</code> variable is set to <code>none</code> and no generation is performed.</p>\n</blockquote>",
+        "detailed_readme": "<h1>Chia</h1>\n<p>This container runs as <code>root</code> user.</p>\n<p>When a port is set to &lt; 0. Host Networking is enabled automatically.</p>\n<blockquote>\n<p>Also NodePort services turn to ClusterIP services, to avoid attempts to bind ports twice.</p>\n</blockquote>\n<p>Key file is stored in <code>/plots/keyfile</code> and is generated automatically, <strong>only</strong> if the file does not exist.\nIf you want to use your own <code>keyfile</code>, you can create a file called <code>keyfile</code> in the <code>/plots</code> directory and it will be used instead.</p>\n<blockquote>\n<p>When set on <code>harvester</code> mode <code>keys</code> variable is set to <code>none</code> and no generation is performed.</p>\n</blockquote>",
         "changelog": null
     }
 }

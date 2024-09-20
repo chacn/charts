@@ -52,9 +52,9 @@ workload:
           args:
             - -c
             - |
-              echo "Waiting for backend to be ready at [{{ $backend }}:9000]"
-              until nc -vz -w 5 "{{ $backend }}" 9000; do
-                echo "Waiting for backend to be ready at [{{ $backend }}:9000]"
+              echo "Waiting for backend to be ready at [{{ $backend }}:0]"
+              until nc -vz -w 5 "{{ $backend }}" 0; do
+                echo "Waiting for backend to be ready at [{{ $backend }}:0]"
                 sleep 1
               done
 {{- end -}}

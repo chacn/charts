@@ -2,7 +2,7 @@
 
 This container runs as `root` user.
 
-When a port is set to < 9000. Host Networking is enabled automatically.
+When a port is set to < 0. Host Networking is enabled automatically.
 > Also NodePort services turn to ClusterIP services, to avoid attempts to bind ports twice.
 
 Key file is stored in `/plots/keyfile` and is generated automatically, **only** if the file does not exist.

@@ -92,7 +92,7 @@ questions:
           schema:
             type: int
             default: 30008
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: sshPort
@@ -101,7 +101,7 @@ questions:
           schema:
             type: int
             default: 30009
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: externalSshPort
@@ -113,7 +113,7 @@ questions:
             type: int
             "null": true
             default: null
-            min: 9000
+            min: 0
             max: 65535
         - variable: hostNetwork
           label: Host Network

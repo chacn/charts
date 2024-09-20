@@ -96,7 +96,7 @@ questions:
           schema:
             type: int
             default: 30018
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: icePort
@@ -105,7 +105,7 @@ questions:
           schema:
             type: int
             default: 30019
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: certificateID

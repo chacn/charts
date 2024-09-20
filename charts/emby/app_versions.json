@@ -228,7 +228,7 @@
                                             false
                                         ]
                                     ],
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "default": 9096,
                                     "required": true
@@ -1305,7 +1305,7 @@
                                 "label": "Port to expose for Emby Server UI",
                                 "schema": {
                                     "type": "int",
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "default": 9096
                                 }

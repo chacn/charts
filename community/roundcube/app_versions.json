@@ -289,7 +289,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 31007,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }

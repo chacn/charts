@@ -120,7 +120,7 @@ questions:
           schema:
             type: int
             default: 30086
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: webdavdServices
@@ -147,7 +147,7 @@ questions:
                       schema:
                         type: int
                         default: 30089
-                        min: 9000
+                        min: 0
                         max: 65535
                         required: true
         - variable: sftpdServices
@@ -174,7 +174,7 @@ questions:
                       schema:
                         type: int
                         default: 30087
-                        min: 9000
+                        min: 0
                         max: 65535
                         required: true
         - variable: ftpdServices
@@ -201,7 +201,7 @@ questions:
                       schema:
                         type: int
                         default: 30088
-                        min: 9000
+                        min: 0
                         max: 65535
                         required: true
         - variable: ftpdPassivePortRange
@@ -217,7 +217,7 @@ questions:
                 schema:
                   type: int
                   default: 50000
-                  min: 9000
+                  min: 0
                   max: 65535
                   required: true
               - variable: end
@@ -226,7 +226,7 @@ questions:
                 schema:
                   type: int
                   default: 50001
-                  min: 9000
+                  min: 0
                   max: 65535
                   required: true
 

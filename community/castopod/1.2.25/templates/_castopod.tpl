@@ -39,15 +39,15 @@ workload:
             liveness:
               enabled: true
               type: tcp
-              port: 9000
+              port: 0
             readiness:
               enabled: true
               type: tcp
-              port: 9000
+              port: 0
             startup:
               enabled: true
               type: tcp
-              port: 9000
+              port: 0
               spec:
                 initialDelaySeconds: 30
                 failureThreshold: 180

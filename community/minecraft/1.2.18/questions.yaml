@@ -511,7 +511,7 @@ questions:
           schema:
             type: int
             default: 25535
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: rconPort
@@ -522,7 +522,7 @@ questions:
           schema:
             type: int
             default: 25575
-            min: 9000
+            min: 0
             max: 65535
             required: true
 

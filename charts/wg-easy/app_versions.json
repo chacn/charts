@@ -127,7 +127,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 30057,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "show_if": [
                                         [
@@ -146,7 +146,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 30058,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -1343,7 +1343,7 @@
                     "group": "Networking",
                     "schema": {
                         "type": "int",
-                        "min": 9000,
+                        "min": 0,
                         "max": 65535,
                         "default": 20920,
                         "required": true
@@ -1355,7 +1355,7 @@
                     "group": "Networking",
                     "schema": {
                         "type": "int",
-                        "min": 9000,
+                        "min": 0,
                         "max": 65535,
                         "default": 20921,
                         "required": true

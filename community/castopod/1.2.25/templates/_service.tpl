@@ -21,8 +21,8 @@ service:
       api:
         enabled: true
         primary: true
-        port: 9000
-        targetPort: 9000
+        port: 0
+        targetPort: 0
         targetSelector: castopod
   mariadb:
     enabled: true

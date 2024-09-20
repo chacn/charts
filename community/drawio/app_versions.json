@@ -171,7 +171,7 @@
                                             false
                                         ]
                                     ],
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -190,7 +190,7 @@
                                             false
                                         ]
                                     ],
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }

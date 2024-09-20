@@ -85,7 +85,7 @@ questions:
           schema:
             type: int
             default: 30024
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: btPort
@@ -94,7 +94,7 @@ questions:
           schema:
             type: int
             default: 50413
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: useHttpsProbe

@@ -412,7 +412,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 9001,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -2695,7 +2695,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 9001,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -5060,7 +5060,7 @@
                                 "label": "Node Port to use for Nextcloud",
                                 "schema": {
                                     "type": "int",
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "default": 9001,
                                     "required": true
@@ -5884,7 +5884,7 @@
                                 "label": "Node Port to use for Nextcloud",
                                 "schema": {
                                     "type": "int",
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "default": 9001,
                                     "required": true
@@ -6708,7 +6708,7 @@
                                 "label": "Node Port to use for Nextcloud",
                                 "schema": {
                                     "type": "int",
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "default": 9001,
                                     "required": true
@@ -7421,7 +7421,7 @@
                                 "label": "Node Port to use for Nextcloud",
                                 "schema": {
                                     "type": "int",
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "default": 9001,
                                     "required": true

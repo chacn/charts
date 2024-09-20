@@ -205,7 +205,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 21115,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -217,7 +217,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 21116,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -229,7 +229,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 21117,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true
                                 }
@@ -250,7 +250,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 21118,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true,
                                     "show_if": [
@@ -269,7 +269,7 @@
                                 "schema": {
                                     "type": "int",
                                     "default": 21119,
-                                    "min": 9000,
+                                    "min": 0,
                                     "max": 65535,
                                     "required": true,
                                     "show_if": [

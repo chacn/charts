@@ -28,7 +28,7 @@ minioConfig:
   additionalEnvs: []
 
 minioNetwork:
-  apiPort: 9000
+  apiPort: 0
   consolePort: 9002
   certificateID:
 

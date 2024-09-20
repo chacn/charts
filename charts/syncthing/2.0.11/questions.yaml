@@ -119,7 +119,7 @@ questions:
           schema:
             type: int
             default: 20910
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: tcpPort
@@ -129,7 +129,7 @@ questions:
             type: int
             default: 20978
             show_if: [["hostNetwork", "=", false]]
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: udpPort
@@ -139,7 +139,7 @@ questions:
             type: int
             default: 20979
             show_if: [["hostNetwork", "=", false]]
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: hostNetwork

@@ -86,7 +86,7 @@ questions:
           schema:
             type: int
             default: 30010
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: swarmPort
@@ -95,7 +95,7 @@ questions:
           schema:
             type: int
             default: 30011
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: gatewayPort
@@ -104,7 +104,7 @@ questions:
           schema:
             type: int
             default: 30012
-            min: 9000
+            min: 0
             max: 65535
             required: true
         - variable: hostNetwork
