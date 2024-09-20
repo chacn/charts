@@ -19,8 +19,9 @@ home: https://nginxproxymanager.com/
 icon: https://media.sys.truenas.net/apps/nginx-proxy-manager/icons/icon.png
 sources:
   - https://nginxproxymanager.com/
-  - https://github.com/truenas/charts/tree/master/community/nginx-proxy-manager
+  - https://github.com/chacn/charts/tree/master/community/nginx-proxy-manager
   - https://hub.docker.com/r/jc21/nginx-proxy-manager
 keywords:
   - nginx
   - proxy
+  - custom
