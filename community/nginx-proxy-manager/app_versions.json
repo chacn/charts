@@ -4,12 +4,12 @@
         "supported": true,
         "healthy_error": null,
         "location": "/__w/charts/charts/community/nginx-proxy-manager/1.0.33",
-        "last_update": "2024-09-19 15:55:48",
+        "last_update": "2024-09-19 15:55:49",
         "required_features": [
             "definitions/timezone",
             "normalize/ixVolume"
         ],
-        "human_version": "2.11.3_1.0.33",
+        "human_version": "2.11.3_1.0.333",
         "version": "1.0.33",
         "chart_metadata": {
             "name": "nginx-proxy-manager",
@@ -40,7 +40,7 @@
             "icon": "https://media.sys.truenas.net/apps/nginx-proxy-manager/icons/icon.png",
             "sources": [
                 "https://nginxproxymanager.com/",
-                "https://github.com/truenas/charts/tree/master/community/nginx-proxy-manager",
+                "https://github.com/chacn/charts/tree/master/community/nginx-proxy-manager",
                 "https://hub.docker.com/r/jc21/nginx-proxy-manager"
             ],
             "keywords": [
